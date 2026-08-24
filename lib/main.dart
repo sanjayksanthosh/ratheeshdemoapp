@@ -1,6 +1,8 @@
+import 'package:basicsapp/addtoistpage.dart';
 import 'package:basicsapp/changecolorpage.dart';
 import 'package:basicsapp/homepage.dart';
 import 'package:basicsapp/layout.dart';
+import 'package:basicsapp/listpage.dart';
 import 'package:basicsapp/newpage.dart';
 import 'package:basicsapp/nextpage.dart';
 import 'package:basicsapp/whatsappclone.dart';
@@ -16,6 +18,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Whatsappclone());
+    return MaterialApp(home: AddtoListPage());
   }
 }
